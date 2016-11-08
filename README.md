@@ -7,6 +7,7 @@
     _banner.pageCtrlEnable = YES;
     _banner.scrollDirection = RYBannerScrollDirectionRight;
     _banner.pageCtrlPosition = PageCtrlPositionCenter;
+    _banner.transitionAnimation = RYBannerTransitionAnimationWeb;
     _banner.placeHolder = [UIImage imageNamed:@"hy_sy_banner"];
     [self.view addSubview:_banner];
     
