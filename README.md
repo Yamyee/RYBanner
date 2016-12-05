@@ -9,6 +9,8 @@
     _banner.pageCtrlPosition = PageCtrlPositionCenter;
     _banner.transitionAnimation = RYBannerTransitionAnimationWeb;
     _banner.placeHolder = [UIImage imageNamed:@"hy_sy_banner"];
+    _banner.dotSize = CGSizeMake(12, 3);
+
     [self.view addSubview:_banner];
     
     刷新数据
